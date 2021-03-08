@@ -1,0 +1,40 @@
+@media (max-width: 615px){
+    .sponsors-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .members-grid{
+        grid-template-columns: 1fr;
+    }
+    
+    .sponsor-card img{
+        width: 180px;
+    }
+}
+
+@media (max-width: 550px){
+    .member{
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px){
+    .member{
+        width: 425px;
+    }
+}
+
+@media (max-width: 1300px){
+    .members-grid{
+        grid-template-columns: 1fr;
+    }
+    .sponsors-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px){
+    .sponsors-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
